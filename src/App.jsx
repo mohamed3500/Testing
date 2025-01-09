@@ -12,7 +12,7 @@ import NotFound from "./Components/NotFound/NotFound";
 
 let routes = createBrowserRouter([
   {
-    path: "Assignment-Start-Framework",
+    path: "",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
